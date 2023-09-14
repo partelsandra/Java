@@ -1,3 +1,5 @@
+package week1;
+
 public class ex4 {
     public static void main(String[] args) {
        int wholeNumber =9000;
