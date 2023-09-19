@@ -9,7 +9,15 @@ public class ex25 {
         System.out.println("Type the first number: ");
         int number1 = Integer.parseInt(reader.nextLine());
 
-        int sum = 1;
+        System.out.println("Type the second number: ");
+        int number2 = Integer.parseInt(reader.nextLine());
+
+        System.out.println("Type the third number: ");
+        int number3 = Integer.parseInt(reader.nextLine());
+
+        int sum = number1 + number2 + number3;
+
+        System.out.println("Sum: " + sum);
 
 
         reader.close();
