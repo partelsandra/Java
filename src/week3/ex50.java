@@ -16,7 +16,7 @@ public class ex50 {
             System.out.println("3. character " + name.charAt(2));
         } else {
             System.out.println("Name should have at least 3 characters.");
-        }
-        scanner.close();
+        }        scanner.close();
     }
+
 }
